@@ -1,0 +1,32 @@
+#navbarMenu {
+    display: flex;
+    justify-content: space-around;
+    font-size: larger;
+    font-weight: bold;
+        a {
+            text-decoration: none;
+            color: black;
+        }
+            li {
+                list-style: none;
+                color: black;
+                text-decoration: none;
+                margin-right: 2rem;
+                min-height: 2rem;
+            }   
+}
+
+#dropdownCategoryMenu {
+    margin-top: 17rem;
+    margin-right: 12rem;
+    background-color: rgba(245, 245, 245, 0.5);
+    border-style: none;
+    border-color: whitesmoke;
+    border-radius: 5%;
+        li {
+            margin-top: 1rem;
+            margin-right: 2rem;
+            border-style: none;
+        }
+}
+

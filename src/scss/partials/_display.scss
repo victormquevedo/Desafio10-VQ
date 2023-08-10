@@ -1,0 +1,92 @@
+/*----->_[ DISPLAY ]_<-----*/
+
+.hidden {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.r-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.c-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.nowrap {
+    flex-wrap: nowrap;
+}
+
+/*----->_[ JUSTIFY ]_<-----*/
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-content-flex-end {
+    justify-content: flex-end;
+}
+
+.justify-self-start {
+    justify-self: flex-start;
+}
+
+.justify-self-center {
+    justify-self: center;
+}
+
+.justify-self-end {
+    justify-self: flex-end;
+}
+
+/*----->_[ ALIGN ]_<-----*/
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-self-center {
+    align-self: center;
+}
+
+/*----->_[ POSITION ]_<-----*/
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}

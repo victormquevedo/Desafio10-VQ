@@ -1,0 +1,19 @@
+<div class="c-flex align-items-center">
+    <h1 class="txt-center">Tu perfil</h1>
+    {{#if isExternalAcces}}
+        <div>
+            <strong><p>Nombre de usuario:</strong> {{user.first_name}} {{user.last_name}}</p>
+            <strong><p>Dirección de correo electrónico:</strong> {{user.email}}</p>
+            <strong><p>Rol:</strong> {{user.role}}</p>
+        </div>
+        {{else}}
+            <div>
+                <strong><p>Nombre de usuario:</strong> {{user.first_name}} {{user.last_name}}</p>
+                <strong><p>Dirección de correo electrónico:</strong> {{user.email}}</p>
+                <strong><p>Edad:</strong> {{user.age}}</p>
+                <strong><p>Rol:</strong> {{user.role}}</p>
+            </div>
+    {{/if}}
+    <p>Ir la sección de productos: <a href="/products">Volver</a></p>
+    <a href="/api/session/logout"><button>Cierre su sesión</button></a>
+</div>

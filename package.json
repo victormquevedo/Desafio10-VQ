@@ -1,0 +1,38 @@
+{
+  "name": "desafio-8",
+  "version": "1.0.0",
+  "description": "desafio 8",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js",
+    "build-css": "node-sass --include-path scss src/scss/styles.scss src/public/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victormquevedo/Backend-Desafio8-VQ"
+  },
+  "author": "Quevedo Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victormquevedo/Backend-Desafio8-VQ"
+  },
+  "homepage": "https://github.com/victormquevedo/Backend-Desafio8-VQ",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-mongo": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.6",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.1.0",
+    "mongoose-paginate-v2": "^1.7.1",
+    "node-sass": "^8.0.0",
+    "passport": "^0.6.0",
+    "passport-github2": "^0.1.12",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.6.1"
+  }
+}
